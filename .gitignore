@@ -216,3 +216,28 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ============================================================
+# Dissertation project-specific exclusions
+# ============================================================
+
+# Raw climate data
+data/raw/*
+!data/raw/.gitkeep
+
+# Large climate files
+*.nc
+*.grib
+*.grb
+*.grib2
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+
+# Keep final ECMWF SEAS5 raw winter files
+!data/raw/*.nc

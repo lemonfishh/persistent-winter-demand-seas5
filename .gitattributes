@@ -1,0 +1,2 @@
+data/raw/*.nc filter=lfs diff=lfs merge=lfs -text
+data/population/*.tif filter=lfs diff=lfs merge=lfs -text
